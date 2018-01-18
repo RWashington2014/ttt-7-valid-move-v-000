@@ -2,6 +2,7 @@
 
 def valid_move?(board, index)
 
+puts index
 
   if position_taken?(board, index) || index > 8
     false
