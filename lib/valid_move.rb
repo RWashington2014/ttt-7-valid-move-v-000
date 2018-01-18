@@ -5,6 +5,8 @@ def valid_move?(board, index)
   if position_taken?(board, index)
     puts "position is filled"
     false
+  else
+    nil
   end
   if !(position_taken?(board, index))
     true
