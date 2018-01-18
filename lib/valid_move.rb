@@ -4,7 +4,7 @@ def valid_move?(board, index)
 
 puts index
 
-  if position_taken?(board, index) || index > 8
+  if  index > 8 || position_taken?(board, index) 
     false
   end
   if !(position_taken?(board, index))
