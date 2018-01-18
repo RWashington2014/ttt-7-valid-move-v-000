@@ -6,9 +6,10 @@ def valid_move?(board, index)
   if position_taken?(board, index)
     puts "position is filled"
     false
-  else
+  if !(position_taken?(board, index))
     true
   end
+
   if index > 8
       false
   end
